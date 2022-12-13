@@ -907,6 +907,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "how":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 𝗕𝗔𝗖𝗞', callback_data='about')
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await query.message.edit_text(
             text=script.HOW_TXT.format(temp.B_NAME),
