@@ -215,14 +215,10 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
-    btn.insert(1,
-        [
-            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 66𝐏𝐌⚡")
-                await query.answer('Check PM, I have sent files99 in pm', show_alert=True)
-        ], [
     btn.insert(10,
         [
-            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
+            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡)
+                await query.answer('Check PM, I have sent files in pm', show_alert=True)
         ]
     )
 
@@ -1295,14 +1291,10 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-    btn.insert(1,
-        [
-            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 66𝐏𝐌⚡")
-                await query.answer('Check PM, I have sent files99 in pm', show_alert=True)
-        ], [
     btn.insert(10,
         [
-            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
+            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡)
+                await query.answer('Check PM, I have sent files in pm', show_alert=True)
         ]
     )
 
