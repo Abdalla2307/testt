@@ -214,8 +214,11 @@ async def next_page(bot, query):
                 ),
             ]
             for file in files
-            InlineKeyboardButton(text='⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡', text="hello", show_alert=True)
         ]
+    btn.insert(1,
+        [
+            InlineKeyboardButton(text='⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡', text="hello", show_alert=True)
+        ], [
     btn.insert(10,
         [
             InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
@@ -1294,8 +1297,7 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(1,
         [
             InlineKeyboardButton(text='⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡', text="hello", show_alert=True)
-        ]
-        ]
+        ], [
     btn.insert(10,
         [
             InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
