@@ -214,6 +214,7 @@ async def next_page(bot, query):
                 ),
             ]
             for file in files
+            InlineKeyboardButton(text='⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡', text="hello", show_alert=True)
         ]
     btn.insert(10,
         [
@@ -1289,6 +1290,11 @@ async def auto_filter(client, msg, spoll=False):
                 ),
             ]
             for file in files
+        ]
+    btn.insert(1,
+        [
+            InlineKeyboardButton(text='⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡', text="hello", show_alert=True)
+        ]
         ]
     btn.insert(10,
         [
