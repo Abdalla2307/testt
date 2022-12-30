@@ -217,7 +217,7 @@ async def next_page(bot, query):
         ]
     btn.insert(1,
         [
-            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", text="hello", show_alert=True)
+            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡")
         ], [
     btn.insert(10,
         [
@@ -1296,7 +1296,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(1,
         [
-            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", text="hello", show_alert=True)
+            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡"
         ], [
     btn.insert(10,
         [
