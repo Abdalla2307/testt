@@ -218,7 +218,7 @@ async def next_page(bot, query):
     btn.insert(10,
         [
             InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡)
-                await query.answer('Check PM, I have sent files in pm', show_alert=True)
+                return await query.answer("oKda", show_alert=True)
         ]
     )
 
@@ -1294,7 +1294,7 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(10,
         [
             InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡)
-                await query.answer('Check PM, I have sent files in pm', show_alert=True)
+                return await query.answer("oKda", show_alert=True)
         ]
     )
 
